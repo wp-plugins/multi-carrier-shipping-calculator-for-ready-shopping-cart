@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : auctioninc_shipcalc_fixed_code/mod.xml
+    Description:
+        Description of all configuration options for AuctionInc ShippingCalc Fixed Fee Codes Module (Ready! Ecommerce Integration)
+-->
+
+<config>
+    <params>
+        <param name="ai_api_key" type="text" label="AuctionInc Account ID" description="Please enter your account ID that you received when you registered at the AuctionInc site." />
+
+		<param name="ai_dest_type" type="selectbox" label="Delivery Destination Type" description="Set rates to apply to either residential or commercial destination addresses." values="Residential,Commercial" default="Residential" />
+		<!--
+		<param name="ai_calc_method" type="selectbox" label="Calculation Method" description="For carrier rates, your configured product weights &amp; dimensions will be used." values="C=>Carrier Rates,F=>Fixed Fee,N=>Free" default="C" />
+		-->
+
+		<!--
+		<param name="ai_fixed_mode" type="selectbox" label="Fixed Fee Mode" values="C=>Code,F=>Fee" default="F" />
+		-->
+		<param name="ai_fixed_code" type="text" label="Fixed Fee Code" description="Enter your AuctionInc-configured fixed fee code." />
+		
+		<param name="ai_fallback_type" type="selectbox" label="Fallback Rate Type" values="N=>None,I=>Per Item,O=>Per Order" default="N" />
+        <param name="ai_fallback_amount" type="text" label="Fallback Rate Amount" description="Default rate if the API cannot be reached or if no rates are found." />		
+
+		<!--
+		<param name="ai_debug" type="checkbox" label="Enable Debug Mode" description="Enable debug mode to show debugging data for ship rates in your cart. Only you, not your customers, can view this debug data." />  
+    	-->
+    </params>
+</config>

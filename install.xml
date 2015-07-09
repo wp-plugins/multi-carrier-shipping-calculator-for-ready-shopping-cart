@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install>
+    <modules>
+        <mod code = "auctioninc_shipcalc_carrier" active = "1" type_id = "3" params = '' has_tab="0" label = "ShippingCalc Carrier Rates" description = "AuctionInc ShippingCalc Module for Carrier Rates" />
+        <mod code = "auctioninc_shipcalc_fixed_fee" active = "1" type_id = "3" params = '' has_tab="0" label = "ShippingCalc Fixed Fee" description = "AuctionInc ShippingCalc Module for Fixed Fee" />
+        <mod code = "auctioninc_shipcalc_fixed_code" active = "1" type_id = "3" params = '' has_tab="0" label = "ShippingCalc Fixed Code" description = "AuctionInc ShippingCalc Module for Fixed Fee Code" />
+        <mod code = "auctioninc_shipcalc_free" active = "1" type_id = "3" params = '' has_tab="0" label = "ShippingCalc Free" description = "AuctionInc ShippingCalc Module for Free Shipping" />    
+        <mod code = "auctioninc_shipcalc_free_domestic" active = "1" type_id = "3" params = '' has_tab="0" label = "ShippingCalc Free Domestic" description = "AuctionInc ShippingCalc Module for Free Domestic Shipping, Carrier Rates for International destinations" /> 
+    </modules>
+</install>
