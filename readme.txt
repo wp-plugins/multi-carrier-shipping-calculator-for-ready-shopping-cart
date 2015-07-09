@@ -14,7 +14,9 @@ Accurate multi-carrier real-time shipping rates from FedEx, USPS, UPS, and DHL. 
 
 **Accurate Multi-Carrier Real-time Shipping Rates for Ready! Shopping Cart**
 
-Registration at [AuctionInc](https://www.auctioninc.com/info/page/shippingcalc_for_ready_ecommerce) required to begin your free trial.  Our ShippingCalc Plugin for Ready! provides you access to our Shipping Rates API and allows you to integrate rates from multiple carriers (DHL, FedEx, USPS, UPS) into your store. There are many advanced features in our Ready! ShippingCalc Plugin such as drop-shipping from multiple origins, USPS flat rate box calculations, insurance,flexible handling, packaging material weight, and more. Our technology is especially unique in its capability to accurately generate rates for products or quantities that must be packed into multiple boxes. 
+Registration at [AuctionInc](https://www.auctioninc.com/info/page/shippingcalc_for_ready_ecommerce) required to begin your free trial.
+
+Our ShippingCalc Plugin for Ready! provides you access to our Shipping Rates API and allows you to integrate rates from multiple carriers (DHL, FedEx, USPS, UPS) into your store. There are many advanced features in our Ready! ShippingCalc Plugin such as drop-shipping from multiple origins, USPS flat rate box calculations, insurance,flexible handling, packaging material weight, and more. Our technology is especially unique in its capability to accurately generate rates for products or quantities that must be packed into multiple boxes. 
 
 **Features Include:**
 
