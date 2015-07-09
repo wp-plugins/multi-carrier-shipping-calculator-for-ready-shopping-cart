@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : auctioninc_shipcalc_carrier/mod.xml
+    Description:
+        Description of all configuration options for AuctionInc ShippingCalc Carrier Rates Module (Ready! Ecommerce Integration)
+-->
+
+<config>
+    <params>
+        <param name="ai_api_key" type="text" label="AuctionInc Account ID" description="Please enter your account ID that you received when you registered at the AuctionInc site." />
+
+		<param name="ai_dest_type" type="selectbox" label="Delivery Destination Type" description="Set rates to apply to either residential or commercial destination addresses." values="Residential,Commercial" default="Residential" />
+		<!--
+		<param name="ai_calc_method" type="selectbox" label="Calculation Method" description="For carrier rates, your configured product weights &amp; dimensions will be used." values="C=>Carrier Rates,F=>Fixed Fee,N=>Free" default="C" />
+		-->
+
+		<param name="ai_packaging" type="selectbox" label="Package Items" description="Select to pack items from the same origin into the same box or each in its own box." values="T=>Together,S=>Separately" default="T" />
+		<param name="ai_insurance" type="checkbox" label="Enable Insurance" description="If enabled your items will utilize your AuctionInc insurance settings." />
+
+		<param name="ai_fallback_type" type="selectbox" label="Fallback Rate Type" values="N=>None,I=>Per Item,O=>Per Order" default="N" />
+        <param name="ai_fallback_amount" type="text" label="Fallback Rate Amount" description="Default rate if the API cannot be reached or if no rates are found." />		
+
+		<param name="servicePref" type="radiobuttons" label="If more than one method allowed - which one to choose" values="Cheaper,Expensive,Middle" default="Cheaper" />        
+
+		<!--
+		<param name="ai_debug" type="checkbox" label="Enable Debug Mode" description="Enable debug mode to show debugging data for ship rates in your cart. Only you, not your customers, can view this debug data." /> 
+    	-->
+    </params>
+</config>
